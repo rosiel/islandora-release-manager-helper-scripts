@@ -35,7 +35,7 @@ if [[ -n $opt ]]; then
   # update modules
   cat "$ISLANDORA_MODULES_LIST" | while read line; do
     cd "$line"
-    git pull origin 7.x-1.6
+    git pull origin 7.x-1.11
     cd ..
   done
 fi
